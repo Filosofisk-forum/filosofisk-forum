@@ -33,6 +33,30 @@ const Index = () => {
           </a>
         </p>
 
+        {/* Google Map - Trinitatis Sognehus */}
+        <div className="mb-8">
+          <a
+            href="https://www.google.dk/maps/place/Trinitatis+Kirke/@55.6820403,12.5744546,17z"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block overflow-hidden rounded border border-border hover:border-accent transition-colors"
+          >
+            <iframe
+              title="Trinitatis Sognehus lokation"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.5!2d12.5744546!3d55.6820403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253100e58053f%3A0x61f4394fd9e4d9c0!2sTrinitatis+Kirke!5e0!3m2!1sda!2sdk!4v1700000000000"
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="pointer-events-auto"
+            />
+          </a>
+          <p className="text-xs text-muted-foreground mt-1">Trinitatis Sognehus, Pilestræde 67, København K</p>
+        </div>
+
+
         <div className="mb-8 p-4 bg-card border border-border rounded">
           <p className="text-sm text-muted-foreground mb-2">
             Se i øvrigt i <strong>menuen</strong> for oplysninger om medlemskab og kontakt med os. Vi kan også henvise til vores{" "}
