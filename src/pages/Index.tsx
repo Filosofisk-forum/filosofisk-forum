@@ -34,7 +34,7 @@ const Index = () => {
         </p>
 
         {/* Google Map - Trinitatis Sognehus */}
-        <div className="mb-8 max-w-sm">
+        <div className="mb-8 max-w-md">
           <a
             href="https://www.google.dk/maps/place/Trinitatis+Kirke/@55.6820403,12.5744546,17z"
             target="_blank"
