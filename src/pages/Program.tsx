@@ -12,7 +12,7 @@ const Program = () => (
       <div className="bg-card border border-border rounded p-5">
         <h3 className="font-display text-lg text-primary mb-2">Aktuelt program:</h3>
         <a
-          href="https://www.filosofisk-forum.dk/wp-content/uploads/2026/02/ff-PROGRAM-FOR-FEBRUAR-TIL-MAJ-2026.pdf"
+          href="/pdfs/2026_02_01_program_foraar_2026.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-accent hover:underline font-semibold"
