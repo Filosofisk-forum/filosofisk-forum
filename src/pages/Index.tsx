@@ -42,8 +42,8 @@ const Index = () => {
             className="block overflow-hidden rounded border border-border hover:border-accent transition-colors"
           >
             <iframe
-              title="Trinitatis Sognehus lokation"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.5!2d12.5744546!3d55.6820403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253100e58053f%3A0x61f4394fd9e4d9c0!2sTrinitatis+Kirke!5e0!3m2!1sda!2sdk!4v1700000000000"
+              title="Trinitatis Kirke"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Trinitatis+Kirke,+København&zoom=16"
               width="100%"
               height="300"
               style={{ border: 0 }}
