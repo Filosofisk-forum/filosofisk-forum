@@ -28,7 +28,7 @@ const Index = () => {
 
         <p className="mb-8">
           Vort aktuelle <strong>program</strong> kan du se og downloade{" "}
-          <a href="/program" className="text-accent hover:underline font-semibold">
+          <a href="/pdfs/2026_02_01_program_foraar_2026.pdf" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">
             her.
           </a>
         </p>
