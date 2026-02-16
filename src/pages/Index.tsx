@@ -38,7 +38,7 @@ const Index = () => {
           <div className="overflow-hidden rounded border border-border">
             <iframe
               title="Trinitatis Kirke"
-              src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Pilestræde+67,+København&zoom=16"
+              src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Trinitatis+Kirke,+Pilestræde+67,+København&zoom=16"
               width="100%"
               height="300"
               style={{ border: 0 }}
