@@ -47,16 +47,27 @@ const Index = () => {
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
-          <div className="flex items-center justify-between mt-1">
-            <p className="text-xs text-muted-foreground">Trinitatis Sognehus, Pilestræde 67, København K</p>
-            <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Trinitatis+Kirke,+Pilestræde+67,+København"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-accent hover:underline font-semibold"
-            >
-              Rutevejledning →
-            </a>
+          <div className="p-3 bg-card border border-t-0 border-border rounded-b">
+            <p className="text-sm font-semibold text-foreground">Trinitatis Kirke</p>
+            <p className="text-xs text-muted-foreground mb-2">Pilestræde 67, 1112 København K</p>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.google.com/maps/place/Trinitatis+Kirke,+Pilestræde+67,+København"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-accent hover:underline font-semibold"
+              >
+                Vis større kort
+              </a>
+              <a
+                href="https://www.google.com/maps/dir/?api=1&destination=Trinitatis+Kirke,+Pilestræde+67,+København"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-accent hover:underline font-semibold"
+              >
+                Rutevejledning →
+              </a>
+            </div>
           </div>
         </div>
 
