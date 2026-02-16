@@ -35,12 +35,7 @@ const Index = () => {
 
         {/* Google Map - Trinitatis Sognehus */}
         <div className="mb-8 max-w-md">
-          <a
-            href="https://www.google.dk/maps/place/Trinitatis+Kirke/@55.6820403,12.5744546,17z"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block overflow-hidden rounded border border-border hover:border-accent transition-colors"
-          >
+          <div className="overflow-hidden rounded border border-border">
             <iframe
               title="Trinitatis Kirke"
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Trinitatis+Kirke,+København&zoom=16"
@@ -50,9 +45,8 @@ const Index = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="pointer-events-auto"
             />
-          </a>
+          </div>
           <p className="text-xs text-muted-foreground mt-1">Trinitatis Sognehus, Pilestræde 67, København K</p>
         </div>
 
