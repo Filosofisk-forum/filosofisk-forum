@@ -20,6 +20,18 @@ const BlivMedlem = () => (
         </p>
       </div>
 
+      <div className="bg-card border border-border rounded p-5 mb-6">
+        <p className="font-semibold mb-2">Sådan betaler du via netbank:</p>
+        <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
+          <li>Log ind i din netbank</li>
+          <li>Vælg <strong className="text-foreground">Overfør til girokonto</strong> (eller "Betal regning")</li>
+          <li>Indtast gironummer: <strong className="text-foreground">(+01) 113-5600</strong></li>
+          <li>Indtast beløb: <strong className="text-foreground">100 kr.</strong> eller <strong className="text-foreground">200 kr.</strong></li>
+          <li>Skriv evt. dit navn i beskedfeltet</li>
+          <li>Godkend betalingen</li>
+        </ol>
+      </div>
+
     </article>
   </PageLayout>
 );
