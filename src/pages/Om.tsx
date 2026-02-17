@@ -26,7 +26,7 @@ const Om = () => (
         </a>
       </p>
 
-      <p className="text-sm text-muted-foreground">CVR-nummer: 41596848</p>
+      
     </article>
   </PageLayout>
 );
