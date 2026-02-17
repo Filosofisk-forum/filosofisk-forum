@@ -118,9 +118,13 @@ const Index = () => {
           </p>
 
           <p>
-            Begge de to filosoffer optrådte hyppigt på tv med kommentarer til forskellige emner.
+          Begge de to filosoffer optrådte hyppigt på tv med kommentarer til forskellige emner.
+        </p>
+
+          <p className="mt-4">
+            Siden 2018 har bestyrelsens mødeindkalder, filosoffen Jacob Dahl Rendtorff, været ankermand for Filosofisk Forum.
           </p>
-        </div>
+      </div>
       </article>
     </PageLayout>
   );
