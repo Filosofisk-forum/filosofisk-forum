@@ -20,10 +20,6 @@ const Kontakt = () => (
       </address>
 
       <p className="mb-4">
-        Web master: Mogens Grosen Nielsen
-      </p>
-
-      <p>
         <a
           href="https://www.facebook.com/groups/155537601124000/"
           target="_blank"
@@ -32,6 +28,10 @@ const Kontakt = () => (
         >
           Filosofisk Forum på Facebook
         </a>
+      </p>
+
+      <p>
+        Web master: Mogens Grosen Nielsen
       </p>
     </article>
   </PageLayout>
