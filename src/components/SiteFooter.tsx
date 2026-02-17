@@ -6,9 +6,6 @@ const SiteFooter = () => (
       <p className="font-display text-lg text-nav-foreground mb-2">
         Filosofisk Forum
       </p>
-      <p className="text-sm text-nav-foreground/70 mb-4">
-        CVR-nummer: 41596848
-      </p>
       <div className="flex justify-center space-x-4 text-xs text-nav-foreground/60">
         <Link to="/kontakt" className="hover:text-nav-hover transition-colors">
           Kontakt
