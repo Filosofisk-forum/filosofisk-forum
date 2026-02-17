@@ -16,16 +16,18 @@ const Bestyrelse = () => (
     <article>
       <h2 className="font-display text-3xl text-primary mb-6">Filosofisk Forums Bestyrelse</h2>
 
-      <Table>
-        <TableBody>
-          {members.map((m) => (
-            <TableRow key={m.name}>
-              <TableCell className="font-medium">{m.name}</TableCell>
-              <TableCell className="text-muted-foreground">{m.phone ?? ""}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
+      <div className="max-w-md">
+        <Table>
+          <TableBody>
+            {members.map((m) => (
+              <TableRow key={m.name}>
+                <TableCell className="font-medium">{m.name}</TableCell>
+                <TableCell className="text-muted-foreground">{m.phone ?? ""}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </div>
     </article>
   </PageLayout>
 );
