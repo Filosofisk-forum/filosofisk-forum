@@ -17,12 +17,12 @@ const Om = () => (
       <p className="mb-4">
         Hver sommer arrangerer vi et højskoleophold på{" "}
         <a
-          href="http://grundtvigs.dk/"
+          href="https://www.logumklosterhojskole.dk/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-accent hover:underline"
         >
-          Grundtvigs Højskole.
+          Løgumkloster Højskole.
         </a>
       </p>
 
