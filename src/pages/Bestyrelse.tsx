@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout";
-import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 const members = [
   { name: "Jacob Dahl Rendtorff", phone: "2961 5370" },
@@ -18,6 +18,12 @@ const Bestyrelse = () => (
 
       <div className="max-w-md">
         <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Navn</TableHead>
+              <TableHead>Telefon</TableHead>
+            </TableRow>
+          </TableHeader>
           <TableBody>
             {members.map((m) => (
               <TableRow key={m.name}>
