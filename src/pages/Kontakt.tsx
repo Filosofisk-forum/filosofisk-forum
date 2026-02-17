@@ -40,6 +40,7 @@ const Kontakt = () => (
           </a>
         </p>
         <p>
+          Web:{" "}
           <a
             href="https://nielsenstatistics.com"
             target="_blank"
