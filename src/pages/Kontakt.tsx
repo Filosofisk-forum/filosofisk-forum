@@ -30,9 +30,26 @@ const Kontakt = () => (
         </a>
       </p>
 
-      <p>
-        Web master: Mogens Grosen Nielsen
-      </p>
+      <div>
+        <p className="font-semibold">Webmaster</p>
+        <p>Mogens Grosen Nielsen</p>
+        <p>
+          Email:{" "}
+          <a href="mailto:mogensgrosen@gmail.com" className="text-accent hover:underline">
+            mogensgrosen@gmail.com
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://nielsenstatistics.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            nielsenstatistics.com
+          </a>
+        </p>
+      </div>
     </article>
   </PageLayout>
 );
