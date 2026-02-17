@@ -20,9 +20,6 @@ const BlivMedlem = () => (
         </p>
       </div>
 
-      <p className="text-sm text-muted-foreground leading-relaxed">
-        Der eksisterer lovgivning om foreninger. Stifterne og medlemmerne kan inden for lovens rammer udforme foreningsvedtægten ('foreningens love'), hvorledes alle forhold håndteres.
-      </p>
     </article>
   </PageLayout>
 );
