@@ -12,12 +12,12 @@ const Program = () => (
       <div className="bg-card border border-border rounded p-5">
         <h3 className="font-display text-lg text-primary mb-2">Aktuelt program:</h3>
         <a
-          href="/pdfs/2026_02_01_program_foraar_2026.pdf"
+          href="/pdfs/FF_2026_efteraar.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="text-accent hover:underline font-semibold"
         >
-          Filosofisk Forum Program for foråret 2026
+          Filosofisk Forum Program for efteråret 2026
         </a>
       </div>
     </article>
